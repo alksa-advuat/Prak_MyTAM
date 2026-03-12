@@ -1,5 +1,4 @@
 package model
-import androidx.annotation.DrawableRes
 
 data class Mangan(
     val nama: String,
