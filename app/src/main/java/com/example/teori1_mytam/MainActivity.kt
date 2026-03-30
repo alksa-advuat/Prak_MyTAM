@@ -85,6 +85,7 @@ fun HeaderSection() {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+
             Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = "Pastikan Kalorimu Terpenuhi! Sesuai Budgetmu",
@@ -196,7 +197,7 @@ fun RecommendationSection() {
                         )
                         Spacer(modifier = Modifier.height(12.dp))
                         Text(text = food.nama, fontWeight = FontWeight.Bold, fontSize = 14.sp)
-                        Text(text = "Rp ${food.harga}", color = Color.DarkGray, fontSize = 12.sp)
+                        Text(text = "Rp ${food.harga}", color = Color.LightGray, fontSize = 12.sp)
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp)) {
                             Icon(imageVector = Icons.Default.Info, contentDescription = "Cal", modifier = Modifier.size(12.dp), tint = Color(0xFF6B9B6B))
                             Spacer(modifier = Modifier.width(4.dp))
