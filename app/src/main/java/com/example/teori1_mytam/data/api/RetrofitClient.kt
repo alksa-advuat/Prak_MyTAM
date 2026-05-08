@@ -1,12 +1,11 @@
-package com.example.teori1_mytam.network
+package com.example.teori1_mytam.data.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-
 object RetrofitClient {
     private const val BASE_URL =
-        "https://gist.githubusercontent.com/alksa-advuat/b5945f7213fe7510f190daede8bbbaf6/raw/"
+        "https://gist.githubusercontent.com/alksa-advuat/f3b29a227359864454c5fcad634ed7be/raw/"
 
     val instance: ApiService by lazy {
         Retrofit.Builder()
